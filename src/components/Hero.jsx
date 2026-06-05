@@ -134,6 +134,7 @@ export default function Hero() {
           </a>
           <a
             href="https://wa.me/918790622884"
+            target="_blank"
             className="btn-secondary"
           >
             Get a Free Sample
