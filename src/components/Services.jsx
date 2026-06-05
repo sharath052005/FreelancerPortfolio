@@ -150,7 +150,7 @@ export default function Services() {
             <h3>Ready to make your thumbnails click-worthy?</h3>
             <p>Get a free sample thumbnail. No commitment required.</p>
           </div>
-          <a href="https://wa.me/918790622884" className="banner-btn">
+          <a href="https://wa.me/918790622884" target="_blank" className="banner-btn">
             Get Free Sample
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
               <path d="M3 13L13 3M13 3H6M13 3V10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>

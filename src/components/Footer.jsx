@@ -43,7 +43,7 @@ export default function Footer() {
               <p>Book a free consultation and get a sample thumbnail.</p>
             </div>
             <div className="footer-cta-actions">
-              <a href="https://wa.me/918790622884" className="cta-big-btn">
+              <a href="https://wa.me/918790622884" target="_blank" className="cta-big-btn">
                 Get a Free Sample
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <path d="M3 15L15 3M15 3H7M15 3V11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
