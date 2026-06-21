@@ -45,8 +45,8 @@ const SERVICES = [
 const PROMISES = [
   {
     icon: '⚡',
-    label: '48-Hour Delivery',
-    desc: 'Your thumbnail lands in your inbox within 48 hours or it\'s free.',
+    label: '24-Hour Delivery',
+    desc: 'Your thumbnail lands in your inbox within 24 hours.',
   },
   {
     icon: '🔄',

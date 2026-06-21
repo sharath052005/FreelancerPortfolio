@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import './Hero.css'
 import Thumbnail01 from '../thumbnails/Thumbnail01.png'
 import Thumbnail05 from '../thumbnails/Thumbnail05.png'
-import Thumbnail06 from '../thumbnails/Thumbnail06.png'
+import Thumbnail08 from '../thumbnails/Thumbnail08.png'
 import Thumbnail09 from '../thumbnails/Thumbnail09.png'
 
 export default function Hero() {
@@ -82,7 +82,7 @@ export default function Hero() {
         style={{ transform: `translate(${mousePos.x * 0.6}px, ${-mousePos.y * 0.6}px)` }}
       >
         <img
-          src={Thumbnail06}
+          src={Thumbnail08}
           alt="thumbnail"
         />
       </div>

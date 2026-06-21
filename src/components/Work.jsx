@@ -2,16 +2,22 @@ import React, { useState, useEffect, useRef } from 'react'
 import './Work.css'
 import Thumbnail01 from '../thumbnails/Thumbnail01.png'
 import Thumbnail05 from '../thumbnails/Thumbnail05.png'
-import Thumbnail06 from '../thumbnails/Thumbnail06.png'
 import Thumbnail09 from '../thumbnails/Thumbnail09.png'
 import Thumbnail02 from '../thumbnails/Thumbnail02.png'
 import Thumbnail03 from '../thumbnails/Thumbnail03.jpg'
 import Thumbnail04 from '../thumbnails/Thumbnail04.png'
-import Thumbnail07 from '../thumbnails/Thumbnail07.png'
 import Thumbnail08 from '../thumbnails/Thumbnail08.png'
 import Thumbnail10 from '../thumbnails/Thumbnail10.png'
+import Thumbnail11 from '../thumbnails/Thumbnail11.png'
+import Thumbnail12 from '../thumbnails/Thumbnail12.png'
+import Thumbnail13 from '../thumbnails/Thumbnail13.png'
+import Thumbnail14 from '../thumbnails/Thumbnail14.png'
+import Thumbnail15 from '../thumbnails/Thumbnail15.png'
+import Thumbnail16 from '../thumbnails/Thumbnail16.png'
+import Thumbnail17 from '../thumbnails/Thumbnail17.png'
+import Thumbnail18 from '../thumbnails/Thumbnail18.png'
 
-const NICHES = ['All', 'Gaming', 'Tech', 'Finance']
+const NICHES = ['Gaming', 'Tech', 'Finance', 'Other']
 
 const THUMBNAILS = [
   {
@@ -40,35 +46,70 @@ const THUMBNAILS = [
     img: Thumbnail05,
   },
   {
-    id: 6,
-    niche: 'Tech',
-    img: Thumbnail06,
-  },
-  {
-    id: 7,
-    niche: 'Tech',
-    img: Thumbnail07,
-  },
-  {
     id: 8,
     niche: 'Tech',
     img: Thumbnail08,
   },
   {
     id: 9,
+    niche: 'Other',
+    img: Thumbnail09,
+  },
+  {
+    id: 10,
     niche: 'Tech',
     img: Thumbnail10,
+  },
+  {
+    id: 11,
+    niche: 'Tech',
+    img: Thumbnail11,
+  },
+  {
+    id: 12,
+    niche: 'Tech',
+    img: Thumbnail12,
+  },
+  {
+    id: 13,
+    niche: 'Finance',
+    img: Thumbnail13,
+  },
+  {
+    id: 14,
+    niche: 'Tech',
+    img: Thumbnail14,
+  },
+  {
+    id: 15,
+    niche: 'Other',
+    img: Thumbnail15,
+  },
+  {
+    id: 16,
+    niche: 'Tech',
+    img: Thumbnail16,
+  },
+  {
+    id: 17,
+    niche: 'Other',
+    img: Thumbnail17,
+  },
+  {
+    id: 18,
+    niche: 'Finance',
+    img: Thumbnail18,
   },
 ]
 
 export default function Work() {
-  const [activeNiche, setActiveNiche] = useState('All')
+  const [activeNiche, setActiveNiche] = useState('Gaming')
   const [visible, setVisible] = useState(false)
   const sectionRef = useRef(null)
 
-  const filtered = activeNiche === 'All'
-    ? THUMBNAILS
-    : THUMBNAILS.filter(t => t.niche === activeNiche)
+  const filtered = THUMBNAILS.filter(
+  t => t.niche === activeNiche
+  )
 
   useEffect(() => {
     const observer = new IntersectionObserver(
