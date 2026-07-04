@@ -1,12 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react'
 import './Work.css'
 import Thumbnail01 from '../thumbnails/Thumbnail01.png'
-import Thumbnail05 from '../thumbnails/Thumbnail05.png'
-import Thumbnail09 from '../thumbnails/Thumbnail09.png'
 import Thumbnail02 from '../thumbnails/Thumbnail02.png'
 import Thumbnail03 from '../thumbnails/Thumbnail03.jpg'
 import Thumbnail04 from '../thumbnails/Thumbnail04.png'
+import Thumbnail05 from '../thumbnails/Thumbnail05.png'
+import Thumbnail06 from '../thumbnails/Thumbnail06.png'
+import Thumbnail07 from '../thumbnails/Thumbnail07.png'
 import Thumbnail08 from '../thumbnails/Thumbnail08.png'
+import Thumbnail09 from '../thumbnails/Thumbnail09.png'
 import Thumbnail10 from '../thumbnails/Thumbnail10.png'
 import Thumbnail11 from '../thumbnails/Thumbnail11.png'
 import Thumbnail12 from '../thumbnails/Thumbnail12.png'
@@ -46,6 +48,16 @@ const THUMBNAILS = [
     id: 5,
     niche: 'Gaming',
     img: Thumbnail05,
+  },
+  {
+    id: 6,
+    niche: 'Other',
+    img: Thumbnail06,
+  },
+  {
+    id: 7,
+    niche: 'Other',
+    img: Thumbnail07,
   },
   {
     id: 8,
