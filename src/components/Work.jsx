@@ -24,6 +24,7 @@ import Thumbnail21 from '../thumbnails/Thumbnail21.png'
 import Thumbnail22 from '../thumbnails/Thumbnail22.png'
 import Thumbnail23 from '../thumbnails/Thumbnail23.jpg'
 import Thumbnail24 from '../thumbnails/Thumbnail24.png'
+import Thumbnail25 from '../thumbnails/Thumbnail25.png'
 
 const NICHES = ['Gaming', 'Tech', 'Finance', 'Other']
 
@@ -147,6 +148,11 @@ const THUMBNAILS = [
     id: 24,
     niche: 'Other',
     img: Thumbnail24,
+  },
+  {
+    id: 25,
+    niche: 'Gaming',
+    img: Thumbnail25,
   },
 ]
 
