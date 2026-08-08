@@ -28,6 +28,11 @@ import Thumbnail25 from '../thumbnails/Thumbnail25.png'
 import Thumbnail26 from '../thumbnails/Thumbnail26.png'
 import Thumbnail27 from '../thumbnails/Thumbnail27.png'
 import Thumbnail28 from '../thumbnails/Thumbnail28.png'
+import Thumbnail29 from '../thumbnails/Thumbnail29.png'
+import Thumbnail30 from '../thumbnails/Thumbnail30.png'
+import Thumbnail31 from '../thumbnails/Thumbnail31.png'
+import Thumbnail32 from '../thumbnails/Thumbnail32.png'
+import Thumbnail33 from '../thumbnails/Thumbnail33.png'
 
 const NICHES = ['Gaming', 'Tech', 'Finance', 'Other']
 
@@ -171,6 +176,31 @@ const THUMBNAILS = [
     id: 28,
     niche: 'Tech',
     img: Thumbnail28,
+  },
+  {
+    id: 29,
+    niche: 'Tech',
+    img: Thumbnail29,
+  },
+  {
+    id: 30,
+    niche: 'Other',
+    img: Thumbnail30,
+  },
+  {
+    id: 31,
+    niche: 'Finance',
+    img: Thumbnail31,
+  },
+  {
+    id: 32,
+    niche: 'Gaming',
+    img: Thumbnail32,
+  },
+  {
+    id: 33,
+    niche: 'Other',
+    img: Thumbnail33,
   },
 ]
 
