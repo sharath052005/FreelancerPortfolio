@@ -33,6 +33,8 @@ import Thumbnail30 from '../thumbnails/Thumbnail30.png'
 import Thumbnail31 from '../thumbnails/Thumbnail31.png'
 import Thumbnail32 from '../thumbnails/Thumbnail32.png'
 import Thumbnail33 from '../thumbnails/Thumbnail33.png'
+import Thumbnail34 from '../thumbnails/Thumbnail34.png'
+import Thumbnail35 from '../thumbnails/Thumbnail35.png'
 
 const NICHES = ['Gaming', 'Tech', 'Finance', 'Other']
 
@@ -201,6 +203,16 @@ const THUMBNAILS = [
     id: 33,
     niche: 'Other',
     img: Thumbnail33,
+  },
+  {
+    id: 34,
+    niche: 'Other',
+    img: Thumbnail34,
+  },
+  {
+    id: 35,
+    niche: 'Finance',
+    img: Thumbnail35,
   },
 ]
 
