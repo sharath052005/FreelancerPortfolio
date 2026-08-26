@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
 import './Hero.css'
-import Thumbnail01 from '../thumbnails/Thumbnail01.png'
+import Thumbnail22 from '../thumbnails/Thumbnail22.png'
 import Thumbnail05 from '../thumbnails/Thumbnail05.png'
-import Thumbnail08 from '../thumbnails/Thumbnail08.png'
-import Thumbnail09 from '../thumbnails/Thumbnail09.png'
+import Thumbnail18 from '../thumbnails/Thumbnail18.png'
+import Thumbnail31 from '../thumbnails/Thumbnail31.png'
 
 export default function Hero() {
   const textRef = useRef(null)
@@ -62,7 +62,7 @@ export default function Hero() {
         style={{ transform: `translate(${mousePos.x * 0.8}px, ${mousePos.y * 0.8}px)` }}
       >
         <img
-          src={Thumbnail01}
+          src={Thumbnail22}
           alt="thumbnail"
         />
       </div>
@@ -82,7 +82,7 @@ export default function Hero() {
         style={{ transform: `translate(${mousePos.x * 0.6}px, ${-mousePos.y * 0.6}px)` }}
       >
         <img
-          src={Thumbnail08}
+          src={Thumbnail18}
           alt="thumbnail"
         />
       </div>
@@ -92,7 +92,7 @@ export default function Hero() {
         style={{ transform: `translate(${-mousePos.x * 0.9}px, ${-mousePos.y * 0.9}px)` }}
       >
         <img
-          src={Thumbnail09}
+          src={Thumbnail31}
           alt="thumbnail"
         />
       </div>
@@ -137,7 +137,7 @@ export default function Hero() {
             target="_blank"
             className="btn-secondary"
           >
-            Get a Free Sample
+            Message Me
           </a>
         </div>
 
@@ -148,7 +148,7 @@ export default function Hero() {
           </div>
           <div className="stat-divider" />
           <div className="stat">
-            <span className="stat-num">48h</span>
+            <span className="stat-num">24h</span>
             <span className="stat-label">Delivery Time</span>
           </div>
           <div className="stat-divider" />

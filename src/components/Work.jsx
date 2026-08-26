@@ -22,7 +22,7 @@ import Thumbnail19 from '../thumbnails/Thumbnail19.png'
 import Thumbnail20 from '../thumbnails/Thumbnail20.png'
 import Thumbnail21 from '../thumbnails/Thumbnail21.png'
 import Thumbnail22 from '../thumbnails/Thumbnail22.png'
-import Thumbnail23 from '../thumbnails/Thumbnail23.jpg'
+import Thumbnail23 from '../thumbnails/Thumbnail23.png'
 import Thumbnail24 from '../thumbnails/Thumbnail24.png'
 import Thumbnail25 from '../thumbnails/Thumbnail25.png'
 import Thumbnail26 from '../thumbnails/Thumbnail26.png'
@@ -136,12 +136,12 @@ const THUMBNAILS = [
   },
   {
     id: 20,
-    niche: 'Other',
+    niche: 'Finance',
     img: Thumbnail20,
   },
   {
     id: 21,
-    niche: 'Other',
+    niche: 'Tech',
     img: Thumbnail21,
   },
   {

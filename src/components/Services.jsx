@@ -122,7 +122,7 @@ export default function Services() {
         </div>
 
         {/* Freelancer Promises */}
-        <div className={`promises-section ${visible ? 'visible' : ''}`}>
+        {/* <div className={`promises-section ${visible ? 'visible' : ''}`}>
           <div className="promises-header">
             <h3 className="promises-title">My Freelancer Promises</h3>
             <p>Every project comes with these guarantees</p>
@@ -142,10 +142,10 @@ export default function Services() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* CTA Banner */}
-        <div className={`services-banner ${visible ? 'visible' : ''}`}>
+        {/* <div className={`services-banner ${visible ? 'visible' : ''}`}>
           <div className="banner-left">
             <h3>Ready to make your thumbnails click-worthy?</h3>
             <p>Get a free sample thumbnail. No commitment required.</p>
@@ -156,8 +156,8 @@ export default function Services() {
               <path d="M3 13L13 3M13 3H6M13 3V10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
             </svg>
           </a>
-        </div>
-      </div>
+        </div>*/}
+      </div> 
     </section>
   )
 }
