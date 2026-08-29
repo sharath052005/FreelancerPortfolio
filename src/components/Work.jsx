@@ -196,7 +196,7 @@ const THUMBNAILS = [
   },
   {
     id: 32,
-    niche: 'Gaming',
+    niche: 'Other',
     img: Thumbnail32,
   },
   {
