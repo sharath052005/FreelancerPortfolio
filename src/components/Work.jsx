@@ -35,6 +35,8 @@ import Thumbnail32 from '../thumbnails/Thumbnail32.png'
 import Thumbnail33 from '../thumbnails/Thumbnail33.png'
 import Thumbnail34 from '../thumbnails/Thumbnail34.png'
 import Thumbnail35 from '../thumbnails/Thumbnail35.png'
+import Thumbnail37 from '../thumbnails/Thumbnail37.png'
+import Thumbnail38 from '../thumbnails/Thumbnail38.png'
 
 const NICHES = ['Gaming', 'Tech', 'Finance', 'Other']
 
@@ -49,11 +51,11 @@ const THUMBNAILS = [
     niche: 'Finance',
     img: Thumbnail02,
   },
-  {
+  /*{
     id: 3,
     niche: 'Gaming',
     img: Thumbnail03,
-  },
+  },*/
   {
     id: 4,
     niche: 'Gaming',
@@ -109,7 +111,7 @@ const THUMBNAILS = [
     niche: 'Tech',
     img: Thumbnail14,
   },
-  {
+  /*{
     id: 15,
     niche: 'Other',
     img: Thumbnail15,
@@ -118,7 +120,7 @@ const THUMBNAILS = [
     id: 16,
     niche: 'Tech',
     img: Thumbnail16,
-  },
+  },*/
   {
     id: 17,
     niche: 'Other',
@@ -129,11 +131,11 @@ const THUMBNAILS = [
     niche: 'Tech',
     img: Thumbnail18,
   },
-  {
+  /*{
     id: 19,
     niche: 'Finance',
     img: Thumbnail19,
-  },
+  },*/
   {
     id: 20,
     niche: 'Finance',
@@ -213,6 +215,16 @@ const THUMBNAILS = [
     id: 35,
     niche: 'Finance',
     img: Thumbnail35,
+  },
+  {
+    id: 37,
+    niche: 'Gaming',
+    img: Thumbnail37,
+  },
+  {
+    id: 38,
+    niche: 'Tech',
+    img: Thumbnail38,
   },
 ]
 
