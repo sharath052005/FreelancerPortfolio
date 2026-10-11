@@ -71,11 +71,11 @@ const THUMBNAILS = [
     niche: 'Other',
     img: Thumbnail06,
   },
-  /*{
+  {
     id: 7,
     niche: 'Gaming',
     img: Thumbnail07,
-  },*/
+  },
   {
     id: 8,
     niche: 'Other',
@@ -171,11 +171,11 @@ const THUMBNAILS = [
     niche: 'Finance',
     img: Thumbnail26,
   },
-  /*{
+  {
     id: 27,
     niche: 'Finance',
     img: Thumbnail27,
-  },*/
+  },
   {
     id: 28,
     niche: 'Tech',
